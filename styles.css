@@ -1,44 +1,67 @@
-body 
-{
+body {
     background:cornflowerblue;
     font-family: Helvetica, sans-serif, Arial;
 }
 
-h1{
+h1 {
     color: blue;
     text-align:center;
 }
 
-.assignments {
+p {
+    text-align:center;
+}
+
+.intro img {
+    width: 340px;
+    height: 220px;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    color: blue;
+    text-align:center;
+    flex-wrap:wrap;
+}
+
+.released {
     display: flex;
     flex-wrap:wrap;
 }
 
-.assignment a:hover {
-    color: blue;
-}
-
-.assignment {
-    width:20%;
+.hackrelease {
+    width:450px;
     padding:10px;
-    margin:10px;
+    margin:15px;
     margin-bottom:30px;
     background:lightblue;
     border-radius:5px;
     box-shadow:5px 8px blue;
 }
 
-    .assignment img {
-        width: 300px;
-        height: 300px;
-        border: 2px solid darkslateblue;
-        margin-right: 20px;
-        border-radius: 5px;
-        display: block;
-        margin: auto;
-    }
+.hackrelease img {
+    width: 380px;
+    height: 220px;
+    border: 2px solid darkslateblue;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
 
-a {
-    text-decoration: none;
-    color: darkorchid;
+.download {
+    padding:5px;
+    margin:5px;
+    margin-bottom:5px;
+    background:white;
+    border-radius:5px;
+    box-shadow:5px 8px lightslategray;
+}
+
+.description {
+    height: 90px;
 }
