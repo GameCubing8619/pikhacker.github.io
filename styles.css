@@ -5,11 +5,7 @@ body {
 
 h1 {
     color: blue;
-    text-align:center;
-}
-
-p {
-    text-align:center;
+    text-align: center;
 }
 
 .intro img {
@@ -24,13 +20,13 @@ p {
 
 h2 {
     color: blue;
-    text-align:center;
-    flex-wrap:wrap;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .released {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
 .hackrelease {
@@ -64,4 +60,8 @@ h2 {
 
 .description {
     height: 90px;
+}
+
+p {
+    text-align: center;
 }
