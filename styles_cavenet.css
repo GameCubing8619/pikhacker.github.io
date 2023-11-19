@@ -1,0 +1,81 @@
+body {
+    background-image: url("images/background.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    font-family: Helvetica, sans-serif, Arial;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.intro {
+    width:650px;
+    padding:10px;
+    margin:15px;
+    margin-bottom:30px;
+    background: lightblue;
+    border-radius:5px;
+    box-shadow:5px 8px darkcyan;
+    display: block;
+    margin: auto;
+}
+
+.intro img {
+    width: 320px;
+    height: 200px;
+    border: 2px solid white;
+    margin-right: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.released {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hackrelease {
+    width:300px;
+    padding:10px;
+    margin:15px;
+    margin-bottom:20px;
+    background:lightblue;
+    border-radius:5px;
+    box-shadow:5px 8px darkcyan;
+}
+
+.hackrelease img {
+    width: 260px;
+    height: 200px;
+    border: 2px solid darkslateblue;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.download {
+    padding:2px;
+    background:white;
+    border-radius:5px;
+    box-shadow:5px 8px lightslategray;
+}
+
+.description {
+    height: 60px;
+}
+
+p {
+    text-align: center;
+    font-weight: 700;
+}
