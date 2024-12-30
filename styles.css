@@ -54,7 +54,7 @@ h2 {
 .hackrelease {
     width:450px;
     padding:10px;
-    margin:15px;
+    margin:20px;
     margin-bottom:30px;
     background:lightblue;
     border-radius:5px;
@@ -131,7 +131,7 @@ h2 {
 }
 
 .description {
-    height: 100px;
+    height: 120px;
 }
 
 p {
